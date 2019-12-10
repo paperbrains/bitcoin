@@ -7,7 +7,6 @@ excerpt:          # Optional for overring content excerpt
 categories:       ["Blocks"] # ["category1"] - best is to have one category in a post
 tags:             ["Onchain","Mining"] # ["tag1", "tag2", "tag3"] - you can have several post tags
 ---
-# Exploring Bitcoin's empty blocks
 Empty blocks have been a phenomenon in Bitcoin since its genesis. The prevalence of empty blocks has diminished in recent years. Using the BlockSci library in Python, we can simply query the blockchain to investigate.
 
 First, we import the necessary libraries.
@@ -253,8 +252,8 @@ axbox.add_artist(AnchoredText("Source: BlockSci", frameon=False, loc="upper left
 plt.show()
 ```
 
-
 ![Empty blocks rate by miner](/assets/images/empty-blocks/empty_blocks_rate.png)
 
-The now defunct KnC Miner was the mining pool with the highest rate of empty block production. The founder, Sam Cole, once wrote about the reasons for producing empty blocks, [here.](https://hackernoon.com/asicboost-655a73d48ae4)
+The now defunct KnC Miner was the mining pool with the highest rate of empty block production. The founder, Sam Cole, once wrote about the reasons for producing empty blocks, [here](https://hackernoon.com/asicboost-655a73d48ae4).
+
 ---
