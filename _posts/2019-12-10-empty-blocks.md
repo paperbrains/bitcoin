@@ -1,16 +1,17 @@
 ---
-layout:           post
 title:            "Exploring Bitcoin's empty blocks"
 date:             2019-12-10T16:46:19 # XML Schema Date/Time
 last_modified_at: 2019-12-10T16:46:19 # last page modified date/time
 image:            /assets/images/empty-blocks/empty_blocks_miner.png # /assets/images/empty-blocks.jpg
-excerpt:          "for meta description" # Optional for overring content excerpt
+excerpt:          # Optional for overring content excerpt
 categories:       ["Blocks"] # ["category1"] - best is to have one category in a post
 tags:             ["Onchain","Mining"] # ["tag1", "tag2", "tag3"] - you can have several post tags
 ---
+# Exploring Bitcoin's empty blocks
 Empty blocks have been a phenomenon in Bitcoin since its genesis. The prevalence of empty blocks has diminished in recent years. Using the BlockSci library in Python, we can simply query the blockchain to investigate.
 
 First, we import the necessary libraries.
+
 
 ```python
 import blocksci
@@ -29,6 +30,7 @@ chain = blocksci.Blockchain("/home/ubuntu/bitcoin")
 ```
 
 We query the chain using Blocksci to extract the output count and miner of each block.
+
 
 ```python
 %time outputs_per_block = chain.map_blocks(lambda block: block.output_count)
