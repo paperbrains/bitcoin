@@ -1,7 +1,7 @@
 ---
 title:            "You can't trust Bitcoin's timestamps"
-date:             2019-13-10T06:46:19 # XML Schema Date/Time
-last_modified_at: 2019-13-10T06:46:19 # last page modified date/time
+date:             2019-12-11T06:46:19 # XML Schema Date/Time
+last_modified_at: 2019-12-11T06:46:19 # last page modified date/time
 image:            /assets/images/empty-blocks/empty_blocks_miner.png # /assets/images/empty-blocks.jpg
 excerpt:          "While looking at Bitcoin's interblock time data, I observed that there are thousands of blocks that are timestamped in non-chronological order. This post explored that peculiarity." # Optional for overring content excerpt
 categories:       ["Blocks"] # ["category1"] - best is to have one category in a post
